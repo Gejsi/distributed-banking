@@ -1,4 +1,4 @@
-package eu.tsp.transactions;
+package io.github.gejsi.banking;
 
 import sun.misc.Signal;
 import sun.misc.SignalHandler;

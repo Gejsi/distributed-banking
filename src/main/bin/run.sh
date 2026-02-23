@@ -17,4 +17,4 @@ fi
 
 mv ${CONFIG} jgroups.xml
 
-java -cp ${JAR}:lib/* ${jvmargs} eu.tsp.transactions.Server
+java -cp ${JAR}:lib/* ${jvmargs} io.github.gejsi.banking.Server

@@ -1,4 +1,4 @@
-package eu.tsp.transactions;
+package io.github.gejsi.banking;
 
 public interface Bank{
   void createAccount(int id) throws IllegalArgumentException;

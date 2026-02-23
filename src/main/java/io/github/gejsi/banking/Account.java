@@ -1,4 +1,4 @@
-package eu.tsp.transactions;
+package io.github.gejsi.banking;
 
 import org.infinispan.protostream.annotations.ProtoFactory;
 import org.infinispan.protostream.annotations.ProtoField;

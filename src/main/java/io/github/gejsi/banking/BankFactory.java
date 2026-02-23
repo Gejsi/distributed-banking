@@ -1,7 +1,7 @@
-package eu.tsp.transactions;
+package io.github.gejsi.banking;
 
-import eu.tsp.transactions.base.BaseBank;
-import eu.tsp.transactions.distributed.DistributedBank;
+import io.github.gejsi.banking.base.BaseBank;
+import io.github.gejsi.banking.distributed.DistributedBank;
 
 public class BankFactory {
   public Bank createBank() {

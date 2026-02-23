@@ -1,12 +1,12 @@
-package eu.tsp.transactions.base;
+package io.github.gejsi.banking.base;
 
 import java.util.Map;
 import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 
-import eu.tsp.transactions.Bank;
-import eu.tsp.transactions.Account;
+import io.github.gejsi.banking.Bank;
+import io.github.gejsi.banking.Account;
 
 public class BaseBank implements Bank{
   private Map<Integer,Account> accounts;

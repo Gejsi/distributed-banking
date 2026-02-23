@@ -1,7 +1,7 @@
-package eu.tsp.transactions.base;
+package io.github.gejsi.banking.base;
 
-import eu.tsp.transactions.Bank;
-import eu.tsp.transactions.BankFactory;
+import io.github.gejsi.banking.Bank;
+import io.github.gejsi.banking.BankFactory;
 import org.junit.Test;
 import org.junit.Before;
 

@@ -1,4 +1,4 @@
-package eu.tsp.transactions.distributed;
+package io.github.gejsi.banking.distributed;
 
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.TimeUnit;
@@ -12,9 +12,9 @@ import org.infinispan.manager.DefaultCacheManager;
 import org.infinispan.transaction.LockingMode;
 import org.infinispan.transaction.TransactionMode;
 
-import eu.tsp.transactions.Bank;
-import eu.tsp.transactions.Account;
-import eu.tsp.transactions.distributed.AccountSchemaBuilderImpl;
+import io.github.gejsi.banking.Bank;
+import io.github.gejsi.banking.Account;
+import io.github.gejsi.banking.distributed.AccountSchemaBuilderImpl;
 
 public class DistributedBank implements Bank {
 
