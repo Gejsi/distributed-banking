@@ -1,0 +1,18 @@
+### Maven ###
+target/
+*.class
+
+### IDE ###
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+### OS ###
+.DS_Store
+*~
+
+### Logs ###
+*.log
